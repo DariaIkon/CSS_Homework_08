@@ -18,6 +18,8 @@ body {
   width: 250px;
   background: #f7f7f7;
   border-right: 1px solid #e2e2e2;
+  padding: 0 17px;
+  box-sizing: border-box;
 }
 #logo {
   font-family: "Nunito Bold", sans-serif;
@@ -39,7 +41,7 @@ body {
 #menu_list .menu_item {
   display: flex;
   text-decoration: none;
-  padding: 25px 32px;
+  padding: 17px 15px;
   align-items: center;
 }
 .menu_item span {
@@ -179,7 +181,7 @@ body {
 #main_box {
   display: flex;
   flex-wrap: wrap;
-  background: #e5e5e5;
+  background: #edeef3;
   padding: 25px 76px 93px 40px;
 }
 #main_box h1 {
@@ -204,6 +206,9 @@ body {
   margin-top: 33px;
   margin-left: 40px;
 }
+.main_box_item:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 .main_box_item_wrapper {
   padding: 20px 27px;
 }
@@ -224,4 +229,10 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 19px;
+}
+.main_box_actions svg:hover {
+  fill: #467df2;
+}
+.main_box_actions svg {
+  fill: #858796;
 }
